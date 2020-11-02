@@ -1,0 +1,13 @@
+ body{
+ margin: 0;
+ padding: 0;
+ }
+ a{
+ color: white;
+ text-decoration: none;}
+ ul li{
+ background-color: green;}
+ ul#menu{
+ border: 1px dotted black;}
+ ul li.current{
+ background-color: red;}
