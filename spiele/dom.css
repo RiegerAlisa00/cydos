@@ -1,0 +1,9 @@
+#items tr{
+	background-color: white;
+}
+#items tr.important{
+	background-color: red;
+}
+#items tr.highlighted{
+	background-color: yellow;
+}
