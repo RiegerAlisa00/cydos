@@ -12,6 +12,7 @@ $arr = array(
     array(6,0,1, 9,0,0, 3,0,7),
     array(9,4,0, 0,0,5, 0,1,0),
 );
+
 $game = new Sudoku();
 $game->solve_it($arr);
 $game->getResult();
