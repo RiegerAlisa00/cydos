@@ -113,7 +113,7 @@ function baue_tabelle() {
 	var summe = c1.select('tbody .rechts').inject(0, function(summe, el) {
 		return summe + el.innerText * 1
 	});
-	c3.insert(Element('td',{'class':'rechts'}).update(summe));
+	c3.insert(Element('td',{'class':'summe'}).update(summe));
 	c2.insert(c3);
 	c1.insert(c2);
 
