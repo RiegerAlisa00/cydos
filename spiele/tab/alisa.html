@@ -2,7 +2,12 @@
 <html>
 <head>
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+<link rel="stylesheet" type="text/css" href="dialog.css">
+
+<script type ="text/javascript" src="fontawesome-all.min.js"></script>
 <script type ="text/javascript" src="prototype.js"></script>
+<script type ="text/javascript" src="dialog.js"></script>
 <script type ="text/javascript" src="alisa.js"></script>
 <title>Table</title>
 <style>
@@ -51,5 +56,97 @@ color: white;
 <input type="button" value="besser" onclick="besser();"/>
 
 <div id='taberreich'></div>
+<div id='template' style="display:none;">
+<div id='template_edit'>
+<form id ="template_form1" action="alisa.js" method="POST">
+<strong>customerNumber:</strong>
+<label type="text"  id="template_customerNumber" name="template_customerNumber"></label>
+<br />
+<strong>customerName:</strong>
+<input type="text" id="template_customerName" />
+<br/>
+<strong>contactLastName:</strong>
+<input type="text" id="template_contactLastName" />
+<br/>
+<strong>contactFirstName:</strong>
+<input type="text" id="template_contactFirstName" />
+<br/>
+<strong>phone:</strong>
+<input type="text" id="template_phone" />
+<br/>
+<strong>addressLine1:</strong>
+<input type="text" id="template_addressLine1" />
+<br/>
+<strong>addressLine2:</strong>
+<input type="text" id="template_addressLine2" />
+<br/>
+<strong>city:</strong>
+<input type="text" id="template_city" />
+<br/>
+<strong>state:</strong>
+<input type="text" id="template_state" />
+<br/>
+<strong>postalCode:</strong>
+<input type="text" id="template_postalCode" />
+<br/>
+<strong>country:</strong>
+<input type="text" id="template_country" />
+<br/>
+<strong>salesRepEmployeeNumber:</strong>
+<input type="text" id="template_salesRepEmployeeNumber" />
+<br/>
+<strong>creditLimit:</strong>
+<input type="text" id="template_creditLimit" />
+<br/>
+<input type="button" value="speichern" id="template_speicherbutton"/>
+</form>
+</div>
+</div>
+<div id='template' style="display:none;">
+<div id='template_add'>
+<form id ="template_form2" action="alisa.js" method="POST">
+<strong>customerNumber:</strong>
+<input type="text"  id="template_customerNumber2" name="template_customerNumber"/>
+<br />
+<strong>customerName:</strong>
+<input type="text" id="template_customerName2" />
+<br/>
+<strong>contactLastName:</strong>
+<input type="text" id="template_contactLastName2" />
+<br/>
+<strong>contactFirstName:</strong>
+<input type="text" id="template_contactFirstName2" />
+<br/>
+<strong>phone:</strong>
+<input type="text" id="template_phone2" />
+<br/>
+<strong>addressLine1:</strong>
+<input type="text" id="template_addressLine12" />
+<br/>
+<strong>addressLine2:</strong>
+<input type="text" id="template_addressLine22" />
+<br/>
+<strong>city:</strong>
+<input type="text" id="template_city2" />
+<br/>
+<strong>state:</strong>
+<input type="text" id="template_state2" />
+<br/>
+<strong>postalCode:</strong>
+<input type="text" id="template_postalCode2" />
+<br/>
+<strong>country:</strong>
+<input type="text" id="template_country2" />
+<br/>
+<strong>salesRepEmployeeNumber:</strong>
+<input type="text" id="template_salesRepEmployeeNumber2" />
+<br/>
+<strong>creditLimit:</strong>
+<input type="text" id="template_creditLimit2" />
+<br/>
+<input type="button" id="template_speicherbutton" value="speichern"/>
+</form>
+</div>
+</div>
 </body>
 </html>
